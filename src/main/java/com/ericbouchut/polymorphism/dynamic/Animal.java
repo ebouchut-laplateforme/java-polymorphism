@@ -1,11 +1,11 @@
-package com.ericbouchut.polymorphism;
+package com.ericbouchut.polymorphism.dynamic;
 
 /**
- * This abstract class **declare** the method <code>sound</code>
+ * This abstract class **declares** the <code>sound</code> method
  * but does not provide its implementation.
  *
  * Subclasses extending the abstract <code>Animal</code> class
- * should <b>define</b> this method ("to make it complete").
+ * should <b>define</b> this method to make the class concrete.
  *
  * Do note that the <code>sournd</code> method will be overriden
  * in two subclasses (<code>Dog</code>, <code>Cat</code>)

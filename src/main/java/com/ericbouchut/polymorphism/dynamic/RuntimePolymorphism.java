@@ -1,4 +1,4 @@
-package com.ericbouchut.polymorphism;
+package com.ericbouchut.polymorphism.dynamic;
 
 public class RuntimePolymorphism {
     public static void main(String[] args) {
